@@ -1,50 +1,48 @@
-# 📖 DEGEN PRIME SHOP: THE BIBLE
-
-## 🎯 CORE VISION
-To build a high-conviction, high-performance market for the "Degen" community. This isn't just a shop; it’s a destination for power-users who value speed, raw design, and elite merchandise.
-
----
-
-## 🎨 DESIGN SYSTEM (NEO-BRUTALIST)
-* **Background:** `#020617` (Deep Void)
-* **Primary Accent:** `#8b5cf6` (Power Purple)
-* **Secondary Accent:** `#22c55e` (Glitch Green)
-* **Status Color:** `#ef4444` (Rug-Pull Red)
-* **Aesthetic:** Hard edges, 45-degree shadows, and bold typography.
+# DEGEN PRIME SHOP // PROJECT BIBLE
+**Status:** STABLE (Pre-Lunch Masterpiece)
+**Aesthetic:** Cyber-Terminal / High-Trust Logistics / Degen Command Center
 
 ---
 
-## 🛠️ TECHNICAL ARCHITECTURE (NEXT.JS 15)
-* **Root Structure:** Flattened directory with `src/app` as the primary application engine.
-* **Optimization:** React Compiler (Reactor) enabled for automatic build-time memoization.
-* **Styling:** Tailwind CSS v4 using the `@theme` directive for custom design tokens.
-* **Routing:** Next.js App Router for high-speed client-side transitions.
-* **Import Alias:** `@/*` mapped to `./src/*` for clean absolute imports.
+## 1. THE "GOLDEN HOUR" VISUAL IDENTITY
+* **The Vibe:** It is NOT a retail store. It is a **Logistics Layer**. It feels like a hacker's terminal or a shipping command center.
+* **Color Palette:**
+    * **Background:** Pure Black (`bg-black`) + Zinc-950 for inputs.
+    * **Primary Accent:** Neon Purple (`#a855f7` / `text-purple-500`) used for branding and borders.
+    * **Status/Live:** Neon Green (`#22c55e` / `text-green-500` or `green-400`) used *only* for "Live" indicators and Tickers.
+    * **Text:** High-Contrast Grays (`text-zinc-300`, `text-zinc-400`). Never use dark gray on black.
+* **Textures:**
+    * **CRT Overlay:** Mandatory scanline gradient over the entire page (`z-[60]`, `pointer-events-none`).
+    * **Glitch Effect:** Applied to the main "DEGEN PRIME" title.
+    * **High Voltage:** The "Connect Wallet" button must have a double-layer glow/shadow.
+
+## 2. LAYOUT ARCHITECTURE (DO NOT CHANGE)
+* **Header:** Wide format. 
+    * *Left:* Ape Logo (Scale: `w-32`) + Title. 
+    * *Right:* Wallet Button (Anchored right).
+    * *Top Right:* Utility Links (`[ How It Works ]`, `[ Terms ]`).
+* **The Ticker:** The "Live Transaction" ticker must be at the **ABSOLUTE TOP**, above the header. High visibility Green text.
+* **The Processor:** Centered "Terminal Box" with a Purple Header Bar (`GATEWAY: NOWPAYMENTS_API`).
+* **Footer:** Minimalist. The **"SYSTEM LIVE"** status must be mathematically centered using `absolute inset-0`.
+
+## 3. COPYWRITING & TERMINOLOGY
+* **Forbidden Words:** "Checkout", "Buy Now", "Get Cost", "Shop". (Too Web2).
+* **Mandatory Words:** "ANALYZE", "LOGISTICS LAYER", "GATEWAY", "TX", "STATUS".
+* **Formatting:** Use `[ BRACKETS ]` for links. Use `//` and `///` for separators. Use `_underscores_` for emphasis.
+* **The Hook:** "BUY ANYTHING* WITH CRYPTO." (Keep the asterisk).
+* **Sub-Hook:** "SPECIALIZED: ELECTRONICS // FOOTWEAR".
+
+## 4. INTEGRATIONS & TRUST SIGNALS
+* **Payment Gateway:** NOWPayments.
+* **Accepted Coins:** Explicitly list `[ ETH ] [ SOL ] [ BASE ] [ BTC ] [ +300_ALTS ]`.
+* **Trust Badge:** Must include `// ENCRYPTED_PROCESSING_VIA_NOWPAYMENTS` under the coin strip.
+* **Active Targets:** Explicitly list `>> SNEAKERS`, `>> GPUS`, `>> CONSOLES` in the processor.
+
+## 5. TECHNICAL GUARDRAILS (PREVENT THE "BULLSHIT")
+1.  **Directives:** Every page must start with `"use client";`.
+2.  **Navigation:** Do NOT use a separate `navbar.tsx` component in `layout.tsx`. The header is built directly into `page.tsx` to preserve the wide layout.
+3.  **Styles:** Do not use `styled-jsx` tags if they cause parser errors. Use `dangerouslySetInnerHTML` for keyframes (Glitch/Scroll) to be safe.
+4.  **Clean State:** When pasting new code, delete the entire file contents first.
 
 ---
-
-## 📈 ROADMAP & STATUS
-
-### Phase 1: Foundation (COMPLETED)
-- [x] Initialized Next.js 15 in the root workspace.
-- [x] Configured Tailwind v4 with the Degen Prime color palette.
-- [x] Built the "Hero" landing page with a scrolling ticker-tape.
-- [x] Enabled the Reactor Compiler for max performance.
-
-### Phase 2: The Gear (CURRENT)
-- [ ] Migrate components (Ape, Ticker) to `src/components/` for safety.
-- [ ] Build the **Product Drop Grid** for merch.
-- [ ] Implement **Cart Logic** for local item storage.
-- [ ] Establish new GitHub Handshake with `degenprimeshop`.
-
----
-
-## 🛠️ LOGS
-### Dec 23, 2025 - Foundation Secured
-- Successfully "flattened" the project into a clean root-level installation.
-- Established the "Degen Prime" visual language.
-
-### Dec 26, 2025 - GitHub Migration & Modular Pivot
-- Deleted "DegenPrimeHub" organization to resolve terminal connection errors.
-- Pivoted to a **Modular Strategy**: Moving core features into separate component files to prevent accidental overwriting.
-- Re-linking workspace to `degenprimeshop/shop` repository.
+**LAST STABLE BUILD:** `app/bingohomepage/page-v5.tsx`
