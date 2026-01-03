@@ -40,7 +40,7 @@ export default function Restrictions() {
           </h3>
           <ul className="list-disc pl-6 space-y-2 text-green-400/80 marker:text-green-600">
             <li>Explosives, Ammunition, or Firearms of any kind.</li>
-            {/* FIXED LINE BELOW: Changed '>' to 'over' */}
+            {/* FIXED LINE BELOW: Changed '>' to 'over' to prevent crash */}
             <li>Chemicals, Fuels, or Lithium Batteries over 100Wh.</li>
             <li>Radioactive materials or biohazards.</li>
             <li>Fireworks or pyrotechnic devices.</li>
