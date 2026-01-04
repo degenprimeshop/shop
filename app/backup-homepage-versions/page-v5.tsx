@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Twitter, Send, Wallet } from 'lucide-react';
 
-export default function DegenShop() {
+export default function DegenShopBackupV5() {
   return (
     <div className="min-h-screen bg-black text-white font-mono selection:bg-purple-500/30 overflow-x-hidden relative flex flex-col">
       
@@ -36,26 +36,26 @@ export default function DegenShop() {
       <div className="w-full bg-black border-b border-green-500/20 py-2 relative z-50">
         <div className="whitespace-nowrap animate-scroll flex gap-32">
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x8a...4b // ITEM: JORDAN_4_RETRO_SB // STATUS: PROCESSED
+            >>> TX: 0x8a...4b // ITEM: JORDAN_4_RETRO_SB // STATUS: PROCESSED
           </span>
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x1c...99 // ITEM: NVIDIA_RTX_5090 // STATUS: SHIPPING
+            >>> TX: 0x1c...99 // ITEM: NVIDIA_RTX_5090 // STATUS: SHIPPING
           </span>
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x4f...2d // ITEM: SONY_PS5_PRO // STATUS: CONFIRMED
+            >>> TX: 0x4f...2d // ITEM: SONY_PS5_PRO // STATUS: CONFIRMED
           </span>
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x9e...1a // ITEM: TRAVIS_SCOTT_OLIVE // STATUS: DELIVERED
+            >>> TX: 0x9e...1a // ITEM: TRAVIS_SCOTT_OLIVE // STATUS: DELIVERED
           </span>
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0xb2...7c // ITEM: MACBOOK_M3_MAX // STATUS: PROCESSED
+            >>> TX: 0xb2...7c // ITEM: MACBOOK_M3_MAX // STATUS: PROCESSED
           </span>
            {/* Duplicate for Loop */}
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x8a...4b // ITEM: JORDAN_4_RETRO_SB // STATUS: PROCESSED
+            >>> TX: 0x8a...4b // ITEM: JORDAN_4_RETRO_SB // STATUS: PROCESSED
           </span>
           <span className="text-[10px] text-green-400 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-[0_0_2px_rgba(74,222,128,0.5)]">
-            &gt;&gt;&gt; TX: 0x1c...99 // ITEM: NVIDIA_RTX_5090 // STATUS: SHIPPING
+            >>> TX: 0x1c...99 // ITEM: NVIDIA_RTX_5090 // STATUS: SHIPPING
           </span>
         </div>
       </div>
@@ -129,10 +129,10 @@ export default function DegenShop() {
             {/* TARGET DIRECTORY */}
             <div className="flex gap-6 mb-6 text-[10px] font-bold text-zinc-500 tracking-widest uppercase">
                <span>ACTIVE_TARGETS:</span>
-               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">&gt;&gt; SNEAKERS</span>
-               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">&gt;&gt; GPUS</span>
-               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">&gt;&gt; CONSOLES</span>
-               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">&gt;&gt; CAMERAS</span>
+               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">>> SNEAKERS</span>
+               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">>> GPUS</span>
+               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">>> CONSOLES</span>
+               <span className="text-purple-400 cursor-pointer hover:text-white hover:underline decoration-purple-500 decoration-2 underline-offset-4 transition-all">>> CAMERAS</span>
             </div>
 
             <span className="text-[12px] text-purple-400 mb-4 tracking-[0.5em] uppercase font-black text-center">[ PASTE_AMAZON_LINK_BELOW ]</span>
